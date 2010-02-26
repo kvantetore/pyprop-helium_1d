@@ -66,3 +66,8 @@ def Propagate(**args):
 		print "t = %03f, E = %s" % (t, E)
 
 
+def LaserFunction(conf, t):
+	E0 = conf.e0
+	omega = conf.omega
+	T = conf.duration
+	return E0/omega * sin(pi*t/T)**2 * cos(omega * t)
