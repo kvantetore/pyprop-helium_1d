@@ -1,0 +1,4 @@
+PotentialEvaluator = Template("DynamicPotentialEvaluator", "potential.cpp")
+PotentialEvaluator("SoftColoumbPotential<2> 2","SoftColoumbPotential_2")
+PotentialEvaluator("LaserDipolePotential<2> 2","LaserDipolePotential_2")
+
